@@ -13,7 +13,8 @@
 ```
 
 ## Let's start to talk about the commands
-Remenber that commands must to be written in second console 
+Remember that you must write the commands in the second console
+
 **Show all databases**
 ``` console
   show dbs
@@ -24,7 +25,7 @@ Remenber that commands must to be written in second console
   use mydatabase
 ```
 
-**Drop database
+**Drop database**
 ``` console
   db.drop()
 ```
