@@ -67,7 +67,7 @@ If you want to get the value only of the selected property then you can use this
 ``` console
   db.myCollection.find({name:"Clare"},{_id:0,name:0})
 ```
-Remember that 1 and 0 activate or deactivate the property that you will get.
+Remember that 1 and 0 activate or deactivate the properties you will get.
 
 
 **Delete a document**
