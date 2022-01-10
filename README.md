@@ -1,7 +1,7 @@
 # How to use MongoDB
 
 **First One**
-- Add MongoDB route to path of your computer
+- Add MongoDB route to the path of your computer
 - Execute twice **CMD** like **administrator**
 - Write this command in the first console
 ``` console
@@ -57,5 +57,21 @@ Increment a property
 Rename a property
 ``` console
   db.myCollection.update({name:"Claire"},{$rename:{age: "birthday"}})
+```
+
+**Find a document**
+``` console
+  db.myCollection.find({name:"Clare"})
+```
+If you want to get the value only of the selected property then you can use this command:
+``` console
+  db.myCollection.find({name:"Clare"},{_id:0,name:0})
+```
+Remember that 1 and 0 activate or deactivate the property that you will get.
+
+
+**Delete a document**
+``` console
+  db.myCollection.delete({name:"Clare"})
 ```
 
