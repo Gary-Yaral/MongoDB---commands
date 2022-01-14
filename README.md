@@ -75,3 +75,13 @@ Remember that 1 and 0 activate or deactivate the properties you will get.
   db.myCollection.delete({name:"Clare"})
 ```
 
+**Add element into array property**
+``` console
+  db.collection.update({_id: id},{$push: {contacts: contact_id}})
+```
+
+**Delete element from array property**
+``` console
+  db.collection.update({_id: id},{$pull: {contacts: contact_id}})
+```
+
