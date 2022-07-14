@@ -73,6 +73,9 @@ If you want to get the value only of the selected property then you can use this
 ```
 Remember that 1 and 0 activate or deactivate the properties you will get.
 
+## Mongoimport
+You must download from MongoDB database tools and to copy all files then to paste in folder bin of mongo in program files
+
 
 **Delete a document**
 ``` console
