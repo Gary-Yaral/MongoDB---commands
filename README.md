@@ -38,6 +38,10 @@ or
 ``` console
   db.createCollection('myCollectionName')
 ```
+** Drop collectiona**
+``` console
+  db.myCollection.drop()
+```
 
 **Insert documents**
 ``` console
