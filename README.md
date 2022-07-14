@@ -38,7 +38,7 @@ or
 ``` console
   db.createCollection('myCollectionName')
 ```
-** Drop collectiona**
+**Drop collections**
 ``` console
   db.myCollection.drop()
 ```
